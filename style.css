@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.eot');
+    src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular.woff') format('woff'),
+        url('fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.body {
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.head {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.clearfix{
+    clear: both;
+}
+.head_inner {
+     margin: 0 auto;
+     display: inline-block;
+     vertical-align: top;
+    
+}
+.simbol {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+    background-image: url(images/blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 44px;
+    background-size: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.h1 {
+    font-family: 'Myriad Pro', sans-serif;
+    color: #000000;
+    font-size: 42px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+}
+ .list {
+    margin-top: 25px;
+    float: right;
+    border-bottom: 2px solid transparent;
+} 
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.link {
+    color: #6c6c6c;
+    text-decoration: none;
+    margin: 0 27px;
+    position: relative;
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #5094f2;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.link:hover:after {
+    display: block;
+    opacity: 1;
+    transition: 0.2s ;
+}
+.container_inner {
+    max-width: 1250px;
+    margin: auto;
+}
+.main {
+    background-image: url(images/i7.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    padding: 90px 0;
+}
+.phone_image {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.title {
+    display: inline-block;
+    vertical-align: top;
+
+}
+.h {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 42px;
+    color: white;
+    line-height: 44.42px;
+    background-size: cover;
+    margin-top: 153px;
+    text-align: right;
+}
+.active {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+}
+.input {
+    margin-top: 36px;
+    font-size: 22px;
+    display: inline-block;
+    padding: 8px 5px 8px 38px;
+    border: 3px solid #5094f2;
+    background-color: #5094f2;
+    background-image: url(images/Shape.png);
+    background-position: 6px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    
+}
+.sign {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+.intro {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.sure {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.logo {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.h2 {
+    color: #5094f2;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    line-height: 44.42px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.text {
+    font-size: 14px;
+    text-align: center;
+    color: #909090;
+    font-weight: 400;
+    width: 248px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 18px;
+}
+.h3 {
+    color: #6f7173;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+    text-align: center;
+}
+.inner {
+    background-image: url(images/i2.jpg);
+    background-repeat: no-repeat;
+    width: 371px;
+    height: 279px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4  {
+    color: #6f7173;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 26px;
+    line-height: 44.42px;
+    margin-top: 30px;
+}
+.textup {
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+.footer {
+    color: #909090;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 45px;
+}
+.block {
+    background-image: url(images/i5.jpg);
+    background-repeat: no-repeat;
+    height: 186px;
+    background-position: center;
+}
+.service {
+    background-image: url(images/i3.jpg);
+    background-repeat: no-repeat;
+    height: 186px;
+    background-position: center;
+}
+.bank {
+    background-image: url(images/i4.jpg);
+    background-repeat: no-repeat;
+    height: 186px;
+    background-position: center;
+}
+.container {
+    padding-top: 57px ;
+    max-width: 1250px;
+    margin: auto;
+}
+.bucket {
+    font-size: 0;
+    padding-top: 94px;
+    max-width: 1250px;
+    margin: auto;
+    
+}
+.bucket_image {
+    width: 50%;
+    background-position: center;
+    float: left;
+}
+.bucket_item {
+    font-size: 14px;
+}
+.bucket_text {
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+.border {
+    border-bottom: 1px solid #909090;
+    padding-bottom: 63px;
+    opacity: 0.1;
+}
+@media (max-width: 1024px) {
+    body {
+        width: auto;
+    }
+    .simbol {
+        margin-left: 40px;
+    }
+    .link {
+        font-size: 16px;
+    }
+    .inner {
+        display: none;
+    }
+    .bucket {
+        padding-top: 30px;
+    }
+    .bucket_image {
+        float: none;
+        width: 100%;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .h3 {
+        font-size: 30px;
+    }
+    .h4 {
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .bucket_text {
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .list {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 970px) {
+    .phone_image {
+        display: none;
+    }
+    .h {
+        font-size: 25px;
+        margin-top: auto;
+        margin-left: 30px;
+    }
+    .h1 {
+    margin-left: 20px;
+    }
+    .active {
+        margin-left: 30px;
+    }
+    .input {
+        background-image: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .phone_image {
+        display: none;
+    }
+    .container_inner {
+        display: flex;
+        justify-content: center;
+    }
+    .simbol {
+        display: none;
+    }
+    .main {
+        background-size: auto;
+    }
+    .link {
+        margin: 0 14px;
+    }
+    .h1 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .h2 {
+        font-size: 14px;
+        line-height: 1px;
+    }
+    
+    .text {
+        width: auto;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .active {
+        font-size: 15px;
+    }
+    .link {
+        font-size: 10px;
+    }
+    .block {
+        display: none;
+    }
+    .service {
+        display: none;
+    }
+    .bank {
+        display: none;
+    }
+    .container {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .intro {
+        width: 25%;
+        margin-right: 10px;
+    }
+    .sure {
+        width: 25%;
+        margin-right: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    .bucket_image {
+        float: none;
+        width: 100%;
+        margin-left: 20px;
+        text-align: left;
+    }
+    
+}
+@media (max-width: 320px) {
+    .h3 {
+        text-align: left;
+    }
+    .h {
+        font-size: 12px;
+    }
+    .active {
+        font-size: 8px;
+    }
+    .input {
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .link {
+        padding-bottom: 0;
+        margin: 0 10px;
+    }
+}
